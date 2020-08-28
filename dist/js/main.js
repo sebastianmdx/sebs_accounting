@@ -1,15 +1,15 @@
-// Initialize and add the map
-function initMap() {
-  // Your location
-  const loc = { lat: 51.50127, lng: -0.1402 };
-  // Centered map on location
-  const map = new google.maps.Map(document.querySelector(".map"), {
-    zoom: 14,
-    center: loc
-  });
-  // The marker, positioned at location
-  const marker = new google.maps.Marker({ position: loc, map: map });
-}
+// // Initialize and add the map
+// function initMap() {
+//   // Your location
+//   const loc = { lat: 51.50127, lng: -0.1402 };
+//   // Centered map on location
+//   const map = new google.maps.Map(document.querySelector(".map"), {
+//     zoom: 14,
+//     center: loc
+//   });
+//   // The marker, positioned at location
+//   const marker = new google.maps.Marker({ position: loc, map: map });
+// }
 
 // Sticky menu background
 window.addEventListener("scroll", function() {
