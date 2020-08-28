@@ -240,5 +240,9 @@ p {
 /*map fixes after google api changed
 */
 .map {
-  margin-bottom: -6px;
+  margin-bottom: -20px;
+}
+.map-img {
+  width: 100%;
+  height: auto;
 }
